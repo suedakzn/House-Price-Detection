@@ -31,25 +31,26 @@ From data cleaning to model evaluation, every step is documented and explained i
 
 ---
 ## 📁 Project Structure
-📦 House Price Detection
-├── 📊 EDA & Preprocessing
-│ ├── Outlier removal (IQR method)
-│ ├── Feature creation: house age, has_been_renovated
-│ └── Visualizations: histograms, scatter plots, boxplots
-├── 🧠 Model Building
-│ ├── Linear Regression
-│ ├── Decision Tree
-│ ├── Random Forest
-│ ├── Gradient Boosting
-│ └── XGBoost
-├── 📉 Log Transformation & Re-training
-│ ├── Log(price) target modeling
-│ ├── New evaluation metrics
-│ └── Scatter + residual analysis
-├── 🔁 Cross Validation
-│ ├── 5-Fold CV on log-transformed model
-│ └── Interpretation of negative R² result
-└── README.md
+
+- House Price Detection/
+  ├── EDA & Preprocessing/
+  │   ├── Outlier removal (IQR method)
+  │   ├── Feature creation: house age, has_been_renovated
+  │   └── Visualizations: histograms, scatter plots, boxplots
+  ├── Model Building/
+  │   ├── Linear Regression
+  │   ├── Decision Tree
+  │   ├── Random Forest
+  │   ├── Gradient Boosting
+  │   └── XGBoost
+  ├── Log Transformation & Re-training/
+  │   ├── Log(price) target modeling
+  │   ├── New evaluation metrics
+  │   └── Scatter + residual analysis
+  ├── Cross Validation/
+  │   ├── 5-Fold CV on log-transformed model
+  │   └── Interpretation of negative R² result
+  └── README.md
 
 ---
 
